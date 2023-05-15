@@ -1,4 +1,5 @@
 com\ejemplo\SpringBoot\service\PersonaService.class
+com\ejemplo\SpringBoot\WebConfig.class
 com\ejemplo\SpringBoot\Application.class
 com\ejemplo\SpringBoot\model\Persona.class
 com\ejemplo\SpringBoot\service\IPersonaService.class
