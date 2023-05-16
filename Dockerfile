@@ -1,5 +1,9 @@
+EXPOSE 8080
+
 FROM amazoncorretto:17-alpine-jdk
 
-COPY target/SpringBoot-0.0.1-SNAPSHOT.jar app.jar
+COPY target/SpringBoot-0.0.1-SNAPSHOT.jar SpringBoot-0.0.1-SNAPSHOT.jar  
 
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","/SpringBoot-0.0.1-SNAPSHOT.jar"]
