@@ -1,4 +1,5 @@
 com\ejemplo\SpringBoot\Application.class
+com\ejemplo\SpringBoot\controller\ExperienciaController.class
 com\ejemplo\SpringBoot\model\Persona.class
 com\ejemplo\SpringBoot\service\SkillService.class
 com\ejemplo\SpringBoot\model\Skills.class
@@ -12,13 +13,15 @@ com\ejemplo\SpringBoot\service\ProyectoService.class
 com\ejemplo\SpringBoot\WebConfig.class
 com\ejemplo\SpringBoot\service\IEducacionService.class
 com\ejemplo\SpringBoot\service\ISkillService.class
+com\ejemplo\SpringBoot\controller\EducacionController.class
 com\ejemplo\SpringBoot\service\IPersonaService.class
 com\ejemplo\SpringBoot\service\PersonaService.class
+com\ejemplo\SpringBoot\controller\PersonaController.class
 com\ejemplo\SpringBoot\model\Proyecto.class
 com\ejemplo\SpringBoot\service\IExperienciaService.class
+com\ejemplo\SpringBoot\controller\SkillController.class
 com\ejemplo\SpringBoot\repository\SkillRepository.class
-com\ejemplo\SpringBoot\model\Domicilio.class
+com\ejemplo\SpringBoot\controller\ProyectoController.class
 com\ejemplo\SpringBoot\model\Experiencia.class
 com\ejemplo\SpringBoot\repository\ExperienciaRepository.class
 com\ejemplo\SpringBoot\repository\EducacionRepository.class
-com\ejemplo\SpringBoot\controller\Controller.class
