@@ -17,16 +17,24 @@ public class Persona {
     @Basic
     private String nombre;
     private String apellido;
+    private String acercaDe;
+    private String url_foto;
+    private String ubicacion;
+    private String ocupacion;
     
     public Persona(){
-        
+        super();
     }
 
-    public Persona(long id, String nombre, String apellido) {
+    public Persona(long id, String nombre, String apellido, String acercaDe, String url_foto, String ubicacion, String ocupacion) {
+        super();
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
+        this.acercaDe = acercaDe;
+        this.url_foto = url_foto;
+        this.ubicacion = ubicacion;
+        this.ocupacion = ocupacion;
     }
-    
     
 }
